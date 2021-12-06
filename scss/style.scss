@@ -1,0 +1,39 @@
+.container{
+    height: 500px;
+    width: 400px;
+    margin: 0 auto;
+    border:3px solid gray;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    
+
+    .button1{
+        background: black;
+        color: white;
+        text-align: right;
+        font-size: 40px;
+        grid-column: span 4;
+    }
+
+    .button17{
+        background: red;
+        color: white;
+        text-align:center;
+        line-height: 80px;
+    }
+
+    .button18{
+        background: blue;
+        color: white;
+        text-align: center;
+        grid-row: span 4;
+        line-height: 330px;
+    }
+
+    .white-button{
+        background: rgb(206, 206, 206);
+        text-align: center;
+        line-height: 75px;
+    }
+}
